@@ -26,4 +26,4 @@ print(arc.interact(system, user))
 - **llama** → Groq LLaMA 3.3 70B Versatile
 
 ## License
-MIT
+ARC
