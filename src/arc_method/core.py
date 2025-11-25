@@ -17,7 +17,7 @@ class ArcMethod:
         self.api_key = api_key
 
         if self.provider == "openai":
-            self.model = model or "gpt-4.1-mini"
+            self.model = model or "gpt-4o"
             self.client = OpenAI(api_key=self.api_key)
 
         elif self.provider == "llama":
